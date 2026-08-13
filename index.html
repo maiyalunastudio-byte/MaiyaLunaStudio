@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MaiyaLunaStudio | Beauty • Culture • Creativity</title>
+<meta name="description" content="MaiyaLunaStudio — a feminine creative studio blending beauty, culture, and personal expression.">
+<style>
+:root{--ink:#30272a;--cream:#fbf7f3;--rose:#c99799;--blush:#ead8d3;--gold:#b78d5b;--white:#fffdfa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,serif;line-height:1.65}
+nav{position:fixed;z-index:20;top:0;left:0;right:0;padding:16px 6%;display:flex;align-items:center;justify-content:space-between;background:rgba(251,247,243,.9);backdrop-filter:blur(12px);border-bottom:1px solid #eadfd9}
+.logo-text{font-size:1.15rem;letter-spacing:.12em}.links a{color:var(--ink);text-decoration:none;margin-left:25px;font:14px Arial,sans-serif}
+.hero{min-height:100vh;padding:130px 6% 80px;display:grid;place-items:center;text-align:center;background:radial-gradient(circle at 50% 20%,#fff 0,#fbf7f3 52%,#f0e2dd 100%)}
+.hero-inner{max-width:850px}.round-logo{width:155px;height:155px;border-radius:50%;object-fit:cover;box-shadow:0 18px 45px #30272a20;margin-bottom:25px}
+h1{font-size:clamp(3.2rem,8vw,7rem);font-weight:400;line-height:.9;margin:0}.script{font-style:italic;color:var(--rose)}
+.kicker{font:12px Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin:28px 0 10px}
+.lead{font-size:1.15rem;color:#66575a;max-width:650px;margin:18px auto 32px}
+.btn{display:inline-block;text-decoration:none;border-radius:999px;padding:13px 24px;margin:4px;font:14px Arial,sans-serif}.primary{background:var(--ink);color:white}.secondary{border:1px solid #bfaeaa;color:var(--ink)}
+section{padding:100px 7%}.heading{text-align:center;max-width:700px;margin:0 auto 48px}.heading h2{font-size:2.6rem;font-weight:400;margin:0 0 8px}.heading p{color:#756568}
+.about{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:28px}.card{background:var(--white);padding:36px;border:1px solid #eadfd9;border-radius:24px;box-shadow:0 14px 35px #30272a0d}.card h3{font-weight:400;font-size:1.55rem;margin-top:0}
+.gallery{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.photo{aspect-ratio:1/1;border-radius:22px;display:grid;place-items:center;text-align:center;padding:20px;background:linear-gradient(145deg,#ead8d3,#f9efeb);color:#806c6e;font-size:1.05rem}
+.culture{background:#33282b;color:#fbf2ed}.culture .heading p{color:#d9c9c6}.culture-grid{max-width:1000px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.culture-card{border:1px solid #6b595d;padding:30px;border-radius:22px;text-align:center}.culture-card span{display:block;font-size:2rem;color:#d6b99a;margin-bottom:10px}
+.contact{text-align:center;max-width:700px;margin:auto}.contact p{color:#756568}
+footer{text-align:center;background:#211b1d;color:#d9c9c6;padding:30px 6%;font:12px Arial,sans-serif}
+@media(max-width:760px){nav{padding:14px 4%}.links a{margin-left:10px;font-size:12px}.about,.gallery,.culture-grid{grid-template-columns:1fr}section{padding:75px 5%}.round-logo{width:125px;height:125px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo-text">MaiyaLunaStudio</div>
+  <div class="links"><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#culture">Culture</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img class="round-logo" src="maiyaluna-logo.png" alt="MaiyaLunaStudio">
+    <div class="kicker">Beauty • Culture • Creativity</div>
+    <h1>Maiya<span class="script">Luna</span>Studio</h1>
+    <p class="lead">A feminine creative space for beauty, confidence, culture, and personal expression.</p>
+    <a class="btn primary" href="#gallery">Explore the Studio</a>
+    <a class="btn secondary" href="#contact">Connect</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="heading"><h2>Welcome to the Studio</h2><p>A home for your story, your creativity, and everything you're building with MaiyaLunaStudio.</p></div>
+  <div class="about">
+    <article class="card"><h3>Your Story</h3><p>This is where your personal introduction can live. Tell visitors who you are, what MaiyaLunaStudio means to you, and what inspires your work.</p></article>
+    <article class="card"><h3>Your Work</h3><p>Use this space for photography, content, products, services, collaborations, or anything else you want your audience to discover.</p></article>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="heading"><h2>Featured Gallery</h2><p>Your photos will go here. These placeholders are ready to be replaced with your own work.</p></div>
+  <div class="gallery">
+    <div class="photo">Featured Photo 01</div><div class="photo">Featured Photo 02</div><div class="photo">Featured Photo 03</div>
+    <div class="photo">Latest Work</div><div class="photo">Behind the Scenes</div><div class="photo">Favorite Moment</div>
+  </div>
+</section>
+
+<section id="culture" class="culture">
+  <div class="heading"><h2>Rooted in Culture</h2><p>We can make this section uniquely yours, with Hmong-inspired visual details and your own story of culture and identity.</p></div>
+  <div class="culture-grid">
+    <div class="culture-card"><span>✦</span><strong>Heritage</strong><p>Share the traditions and influences that inspire you.</p></div>
+    <div class="culture-card"><span>◇</span><strong>Craft</strong><p>Highlight patterns, details, artistry, and creativity.</p></div>
+    <div class="culture-card"><span>☾</span><strong>Modern Expression</strong><p>Blend heritage with your own contemporary style.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact"><div class="heading"><h2>Let's Connect</h2><p>Add your real email, Instagram, booking page, or shop when you're ready.</p></div>
+  <a class="btn primary" href="mailto:hello@maiyalunastudio.com">Email MaiyaLunaStudio</a></div>
+</section>
+
+<footer>© 2026 MaiyaLunaStudio · Beauty • Culture • Creativity</footer>
+</body>
+</html>
