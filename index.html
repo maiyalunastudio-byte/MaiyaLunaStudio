@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MaiyaLunaStudio</title>
+<meta name="description" content="MaiyaLunaStudio — feminine, creative, and beautifully made.">
+<style>
+:root{
+  --cream:#fbf7f2; --rose:#c98f91; --deep:#33272a; --soft:#ead8d2;
+  --gold:#b58a5a; --white:#fffdfb;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;background:var(--cream);color:var(--deep);line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(251,247,242,.92);backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;padding:16px 6%;border-bottom:1px solid #eadfd8}
+.brand{font-size:1.35rem;letter-spacing:.08em}
+nav a{color:var(--deep);text-decoration:none;margin-left:22px;font-size:.92rem}
+.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:120px 6% 70px;background:radial-gradient(circle at 50% 20%,#fff 0,#fbf7f2 48%,#f1e4de 100%)}
+.hero-inner{max-width:850px}
+.logo{width:145px;height:145px;object-fit:cover;border-radius:50%;box-shadow:0 12px 35px rgba(51,39,42,.14);margin-bottom:24px}
+h1{font-size:clamp(3rem,8vw,6.5rem);font-weight:400;line-height:.95;margin:0 0 20px}
+.script{font-style:italic;color:var(--rose)}
+.tagline{font-size:1.2rem;max-width:650px;margin:0 auto 32px;color:#68575a}
+.btn{display:inline-block;background:var(--deep);color:white;text-decoration:none;padding:13px 24px;border-radius:999px;margin:5px;font-family:Arial,sans-serif;font-size:.9rem}
+.btn.alt{background:transparent;color:var(--deep);border:1px solid #bfaeaa}
+section{padding:95px 7%}
+.section-title{text-align:center;font-size:2.4rem;font-weight:400;margin:0 0 12px}
+.section-sub{text-align:center;max-width:650px;margin:0 auto 45px;color:#756568}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;max-width:1100px;margin:auto;align-items:center}
+.card{background:var(--white);padding:35px;border:1px solid #eadfd8;border-radius:24px;box-shadow:0 12px 35px rgba(51,39,42,.06)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin:auto}
+.tile{aspect-ratio:1/1;background:linear-gradient(145deg,#ead8d2,#f8eee9);border-radius:20px;display:grid;place-items:center;color:#846e70;text-align:center;padding:20px}
+.contact{max-width:800px;margin:auto;text-align:center}
+footer{text-align:center;padding:35px 6%;background:#33272a;color:#f8eee9;font-family:Arial,sans-serif;font-size:.85rem}
+@media(max-width:760px){
+  nav{padding:14px 4%}.brand{font-size:1.05rem}nav a{margin-left:10px;font-size:.8rem}
+  .about,.gallery{grid-template-columns:1fr}
+  section{padding:70px 5%}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="brand">MaiyaLunaStudio</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img class="logo" src="maiyaluna-logo.png" alt="MaiyaLunaStudio logo">
+    <h1>Maiya<span class="script">Luna</span>Studio</h1>
+    <p class="tagline">A feminine creative space where beauty, culture, and personal expression come together.</p>
+    <a class="btn" href="#gallery">Explore the Studio</a>
+    <a class="btn alt" href="#contact">Get in Touch</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2 class="section-title">Welcome</h2>
+  <p class="section-sub">A simple first home for the MaiyaLunaStudio brand — ready to grow as your work grows.</p>
+  <div class="about">
+    <div class="card">
+      <h3>About MaiyaLunaStudio</h3>
+      <p>MaiyaLunaStudio is a space for creativity, confidence, beauty, and storytelling. This section can become your personal brand story, business introduction, or creator bio.</p>
+    </div>
+    <div class="card">
+      <h3>Your style, your story</h3>
+      <p>We can customize this site with your photography, Hmong-inspired design details, services, products, social links, booking information, and anything else you want your visitors to see.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2 class="section-title">Gallery</h2>
+  <p class="section-sub">Replace these spaces with your favorite photos, portfolio work, products, or featured content.</p>
+  <div class="gallery">
+    <div class="tile">Photo / Portfolio 01</div>
+    <div class="tile">Photo / Portfolio 02</div>
+    <div class="tile">Photo / Portfolio 03</div>
+    <div class="tile">Featured Work</div>
+    <div class="tile">Behind the Scenes</div>
+    <div class="tile">Latest Collection</div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="section-sub">Add your email, Instagram, booking link, or shop here when you're ready.</p>
+    <a class="btn" href="mailto:hello@maiyalunastudio.com">Email MaiyaLunaStudio</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 MaiyaLunaStudio · Made with creativity
+</footer>
+</body>
+</html>
